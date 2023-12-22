@@ -1,0 +1,324 @@
+#homebody {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: rgb(111, 140, 194);
+
+}
+
+#loginbody {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    color: rgb(87, 87, 173);
+}
+
+#indexbody {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    color: rgb(87, 87, 173);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 0 0 10px 0;
+
+}
+
+.home {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.two {
+    width: 100px;
+
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.indexbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 300px; */
+}
+.fo{
+    width: 400px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+#logout {
+    width: 100px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 16px;
+}
+
+
+.inp {
+    display: flex;
+    position: relative;
+}
+
+.inp img {
+    width: 16px;
+    height: 16px;
+}
+
+.inp span {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+.main {
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background-color: rgb(111, 140, 194);
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+
+.mar {
+    margin: 8px;
+}
+
+.todoTex {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.in {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.tasks {
+    height: auto;
+    width: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#form {
+    background-color: inherit;
+}
+
+.dis {
+    display: flex;
+
+}
+
+.inp1 {
+    width: 310px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 161, 161);
+    padding: 10px;
+    margin: 0;
+}
+
+.btn {
+    height: 38px;
+    width: 310px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #4caf50;
+    border-radius: 5px;
+    color: white;
+    border: 0px solid;
+    padding: 0;
+    margin: 5px 0 0 0;
+
+}
+
+.tas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    margin: 5px 10px 10px 21px;
+    overflow: hidden;
+    width: 290px;
+    padding: 10px;
+}
+
+.tasTex {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    flex-direction: column;
+
+}
+
+.del {
+    width: 40px;
+    height: 43px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.btn:active {
+    background-color: rgb(94, 202, 108);
+}
+
+.del:active {
+    background-color: rgb(255, 212, 131);
+}
+
+.tex {
+    display: flex;
+    align-items: center;
+    width: 385px;
+}
+
+.texd {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    cursor: pointer;
+    width: 310px;
+    border-radius: 5px;
+    height: 38px;
+    display: flex;
+    margin: 0 0 0 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.todoTex {
+    color: white;
+}
+
+.clear:active {
+    background-color: rgb(101, 170, 91);
+
+}
+
+#file{
+    width: 100px;
+    margin: 10px auto;
+}
